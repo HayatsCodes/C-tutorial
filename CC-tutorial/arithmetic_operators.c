@@ -1,7 +1,6 @@
 #include<stdio.h>
 int main(void)
 /**
-*main - the entry point
 * printf - prints all arithmetic operators
 *int a; int b - holds integer
 *int c - returns integers operations on all arithmetic operators
