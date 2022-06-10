@@ -8,13 +8,13 @@ int main(void)
   int c;
   
   printf("Enter your opposite value: ");
-  scanf("%d", a);
+  scanf("%d", &a);
   
   printf("Enter your adjacent value: ");
-  scanf("%d", b);
+  scanf("%d", &b);
   
   c = sqrt(a * a + b * b);
-  printf("Hypotenuse is: %d", c);
+  printf("Hypotenuse is: %d", &c);
   
   return 0;
 }
