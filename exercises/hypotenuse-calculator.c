@@ -14,7 +14,7 @@ int main(void)
   scanf("%lf", &b);
   
   c = sqrt(a * a + b * b);
-  printf("Hypotenuse is: %lf", &c);
+  printf("Hypotenuse is: %lf", c);
   
   return 0;
 }
