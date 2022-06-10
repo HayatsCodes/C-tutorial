@@ -17,6 +17,6 @@ int main (void)
   printf("circumference: %lf\n", circumference);
   
   area = PI * radius * radius;
-  printf("Area: %lf", Area)
+  printf("Area: %lf", area)
   return 0;
 }    
