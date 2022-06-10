@@ -3,18 +3,18 @@
 // main - accept user input to calculate the hypotenuse of a right triangle
 int main(void)
 {
-  int a;
-  int b;
-  int c;
+  double a;
+  double b;
+  double c;
   
   printf("Enter your opposite value: ");
-  scanf("%d", &a);
+  scanf("%lf", &a);
   
   printf("Enter your adjacent value: ");
-  scanf("%d", &b);
+  scanf("%lf", &b);
   
   c = sqrt(a * a + b * b);
-  printf("Hypotenuse is: %d", &c);
+  printf("Hypotenuse is: %lf", &c);
   
   return 0;
 }
