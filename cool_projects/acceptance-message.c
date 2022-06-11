@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* message - prints message to satandard output
+* message - prints message to standard output
 * 
 * main - calls message function and prints for different users
 * 
