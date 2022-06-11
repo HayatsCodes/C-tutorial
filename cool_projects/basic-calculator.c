@@ -26,6 +26,7 @@ int main(void)
     {
         case '+':
         result = num1 + num2;
+        // .2lf - limits the digit after the decimal to 2 places
         printf("%.2lf", result);
         break;
         
